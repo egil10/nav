@@ -1,0 +1,19 @@
+{
+  "_doc": "Applied after group_*.json. 'drop': employer regexes removed from a company. 'window': an employer regex only counts for a company between from and to (YYYY-MM-DD, inclusive), e.g. before an acquisition closed or after a spin-off.",
+  "drop": [
+    {"company": "Akastor", "employer": "mhwirth|^hmh$", "why": "MHWirth merged into HMH, a 50% joint venture Akastor does not consolidate"},
+    {"company": "Asker Healthcare Group", "employer": "mediplast", "why": "Mediplast belongs to AddLife"},
+    {"company": "MedCap", "employer": "mediplast", "why": "Mediplast belongs to AddLife"}
+  ],
+  "window": [
+    {"company": "Ratos", "employer": "\\bhent\\b", "to": "2025-06-12", "why": "HENT moved to Sentia, listed 13 Jun 2025; Ratos now a minority holder"},
+    {"company": "Sentia", "employer": "\\bhent\\b", "from": "2025-06-13", "why": "Sentia listed 13 Jun 2025"},
+    {"company": "Ratos", "employer": "presis", "from": "2021-07-01", "why": "Ratos bought Presis Infra in 2021"},
+    {"company": "Matas", "employer": "kicks", "from": "2024-10-01", "why": "Matas took over KICKS in Oct 2024"},
+    {"company": "Hampidjan", "employer": "m.renot", "from": "2022-06-01", "why": "Hampidjan bought Mørenot in 2022"},
+    {"company": "Hampidjan", "employer": "fiizk", "from": "2024-01-01", "why": "Hampidjan bought FiiZK 2023-24"},
+    {"company": "Sdiptech", "employer": "heatwork", "from": "2023-01-01", "why": "Sdiptech bought HeatWork in 2023"},
+    {"company": "Moreld", "employer": "ocean installer", "from": "2024-01-01", "why": "Ocean Installer joined Moreld in 2024"},
+    {"company": "Schouw & Co", "employer": "biomar", "why": "Schouw consolidates BioMar (majority owner); also counted under BioMar Group, listed Jun 2026"}
+  ]
+}

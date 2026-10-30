@@ -59,6 +59,19 @@ for _, r in uni.iterrows():
     if len(hit):
         rows.append(hit.assign(company=r["name"]))
 m_ads = pd.concat(rows) if rows else pd.DataFrame(columns=list(ads.columns) + ["company"])
+# ownership fixes: drop wrong matches, and count acquired/spun-off units only while owned
+ov = json.load(open(os.path.join(ROOT, "mapping", "overrides.json")))
+n0 = len(m_ads)
+for o in ov["drop"]:
+    hit = m_ads.company.eq(o["company"]) & m_ads.employer.str.contains(o["employer"], case=False, regex=True)
+    m_ads = m_ads[~hit]
+for o in ov["window"]:
+    hit = m_ads.company.eq(o["company"]) & m_ads.employer.str.contains(o["employer"], case=False, regex=True)
+    out_ = pd.Series(False, index=m_ads.index)
+    if o.get("from"): out_ |= m_ads.d < pd.Timestamp(o["from"])
+    if o.get("to"): out_ |= m_ads.d > pd.Timestamp(o["to"]) + pd.Timedelta(days=1)
+    m_ads = m_ads[~(hit & out_)]
+print("ownership overrides removed", n0 - len(m_ads), "company-ad matches")
 # weights: universe ads are all dated individually (w=1). Other bulk ads were dated in random
 # order, so market totals scale the dated ones up by 1 / dated share.
 in_uni = ads.uuid.isin(m_ads.uuid)
@@ -256,8 +269,18 @@ sc.assign(month=sc.m.astype(str))[["company", "ticker", "month", "signal", "fwd6
     .to_csv(os.path.join(D, "scatter.csv"), index=False)
 ya.rename(columns={"y": "year", "g": "ad_share_growth"})[["company", "year", "ads", "ad_share_growth", "xret"]].round(4) \
     .to_csv(os.path.join(D, "annual.csv"), index=False)
+emp_counts = m_ads.groupby(["company", "employer"]).size().rename("ads").reset_index().sort_values(["company", "ads"], ascending=[True, False])
+emp_str = emp_counts.groupby("company").apply(lambda g: "; ".join(f"{e} ({n})" for e, n in zip(g.employer[:5], g.ads[:5])) + (f"; +{len(g) - 5} more names" if len(g) > 5 else ""), include_groups=False)
 pd.DataFrame(comp_tab).drop(columns=["employers", "notes"]).assign(
-    employers=[", ".join(c["employers"]) for c in comp_tab]).to_csv(os.path.join(D, "companies.csv"), index=False)
+    employers=lambda d: d.name.map(emp_str).fillna("")).to_csv(os.path.join(D, "companies.csv"), index=False)
+# audit: every matched employer string with its count and date span
+au = m_ads.groupby(["company", "employer"]).agg(ads=("uuid", "size"), first=("d", "min"), last=("d", "max")).reset_index()
+au["ticker"] = au.company.map(tick).fillna("")
+au["first_month"] = au["first"].dt.strftime("%Y-%m"); au["last_month"] = au["last"].dt.strftime("%Y-%m")
+au["id"] = au.company + " | " + au.employer
+au = au.sort_values(["ads"], ascending=False)[["id", "ticker", "company", "employer", "ads", "first_month", "last_month"]]
+au.to_csv(os.path.join(D, "matches.csv"), index=False)
+au.drop(columns="id").to_csv(os.path.join(ROOT, "output", "employer_matches.csv"), index=False)
 mon = []
 for comp, v in series.items():
     for mm, a, p in zip(out["months"], v["ads"], v["price"]):
