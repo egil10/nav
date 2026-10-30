@@ -2,7 +2,7 @@
 
 Inputs
   data/processed/ads.parquet               (build_dataset.py)
-  data/processed/mapping/group_*.json      company -> Norwegian employer names + Yahoo ticker
+  mapping/group_*.json                     company -> Norwegian employer names + Yahoo ticker
 Outputs
   data/processed/universe_monthly.parquet  company x month: ads, signal, returns
   data/processed/dashboard_data.json       everything the dashboard needs
@@ -33,7 +33,7 @@ START = pd.Timestamp("2019-01-01")
 # ---------------------------------------------------------------- mapping
 uni = pd.read_excel(os.path.join(ROOT, "investments-equities.xlsx"))
 maps = []
-for f in sorted(glob.glob(os.path.join(P, "mapping", "group_*.json"))):
+for f in sorted(glob.glob(os.path.join(ROOT, "mapping", "group_*.json"))):
     maps += json.load(open(f))
 mp = pd.DataFrame(maps).drop_duplicates("name").set_index("name")
 uni = uni.join(mp[["ticker", "norway_presence", "employers", "regex", "notes"]], on="name")

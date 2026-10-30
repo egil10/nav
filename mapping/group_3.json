@@ -1,0 +1,526 @@
+[
+ {
+  "name": "Avanza Bank Holding",
+  "ticker": "AZA.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Swedish online broker; no Norwegian operations."
+ },
+ {
+  "name": "Investment AB Latour",
+  "ticker": "LATO-B.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Hultafors Group Norge AS",
+   "Fristads AS",
+   "LSAB NORGE AS",
+   "Swegon AS",
+   "Swegon Norge",
+   "SWEGON AS AVD TRONDHEIM",
+   "Swegon AS Stavanger"
+  ],
+  "regex": [
+   "^swegon\\b"
+  ],
+  "total_ads": 37,
+  "notes": "Wholly-owned holdings with Norwegian subsidiaries: Swegon (ventilation), Hultafors Group (incl. Fristads since 2021), LSAB (Latour Industries). Specma Norge/HydraSpecma excluded (Specma hydraulics sold 2018). Listed associates (Assa Abloy, Sweco, Troax, Nederman etc.) not included."
+ },
+ {
+  "name": "Asker Healthcare Group",
+  "ticker": "ASKER.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Mediplast AS",
+   "OneMed Services AS",
+   "Onemed"
+  ],
+  "regex": [],
+  "total_ads": 7,
+  "notes": "IPO March 2025 (ASKER.ST history from 2025-03-27). Norwegian units OneMed and Mediplast."
+ },
+ {
+  "name": "ALM Brand",
+  "ticker": "ALMB.CO",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Bought only Codan Denmark (2022); Codan Norge strings belong to RSA/Codan pre-Gjensidige, not Alm Brand."
+ },
+ {
+  "name": "Arion Banki",
+  "ticker": "ARION.IC",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Icelandic bank; no Norwegian operations. \"Clarion\" hotel matches are false positives."
+ },
+ {
+  "name": "Bufab",
+  "ticker": "BUFAB.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No matches for Bufab in Norwegian ads."
+ },
+ {
+  "name": "Alleima",
+  "ticker": "ALLEI.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Spun off from Sandvik, listed 2022-08-31. No Norwegian ads; \"Sandvika\" hits are place names."
+ },
+ {
+  "name": "Billerud",
+  "ticker": "BILL.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian ads (Korsnes hits are surnames)."
+ },
+ {
+  "name": "NOBA Bank Group",
+  "ticker": "NOBA.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Bank Norwegian, a part of Nordax Bank AB (publ)",
+   "Bank Norwegian, en filial av NOBA Bank Group AB (publ)",
+   "Bank Norwegian ASA",
+   "Bank Norwegian, a part of NOBA Bank Group AB (publ)"
+  ],
+  "regex": [],
+  "total_ads": 10,
+  "notes": "IPO Sept 2025. Former Nordax; owns Bank Norwegian (acquired 2022). \"Noba Consulting\" is unrelated."
+ },
+ {
+  "name": "AFRY",
+  "ticker": "AFRY.ST",
+  "norway_presence": "material",
+  "employers": [
+   "AFRY",
+   "AFRY (ÅF)",
+   "Afry Norway Advisory As Avd Oslo",
+   "AFRY Group Norway AS",
+   "AFRY AS",
+   "AFRY Norway AS",
+   "AFRY Consult",
+   "AFRY CONSULT AS AVD KRISTIANSAND",
+   "AFRY Norge AS",
+   "AFRY Management Consulting",
+   "ÅF Consult",
+   "ÅF Engineering",
+   "ÅF",
+   "ÅF Pöyry",
+   "ÅF Advansia AS",
+   "ÅF Advansia Nordvest AS",
+   "ÅF Engeneering AS",
+   "ÅF Engineering AS",
+   "ÅF Engineering as",
+   "Pöyry Norway AS"
+  ],
+  "regex": [
+   "\\bafry\\b",
+   "^åf\\b",
+   "^åf ",
+   "pöyry"
+  ],
+  "total_ads": 197,
+  "notes": "Formerly ÅF / ÅF Pöyry (merged 2019, renamed AFRY 2020); includes ÅF Advansia."
+ },
+ {
+  "name": "Hexatronic Group",
+  "ticker": "HTRO.ST",
+  "norway_presence": "small",
+  "employers": [
+   "HEXATRONIC AS",
+   "Hexatronic AS"
+  ],
+  "regex": [],
+  "total_ads": 2,
+  "notes": ""
+ },
+ {
+  "name": "Lindab International",
+  "ticker": "LIAB.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Lindab A/S",
+   "Lindab AS",
+   "LINDAB AS AVD HARSTAD",
+   "LINDAB AS AVD DRAMMEN",
+   "LINDAB AS AVD SALG OSLO",
+   "Lindab AS Avd Sandnes",
+   "Lindab AS Avd Trondheim",
+   "Lindab AS avd. Ålesund",
+   "Lindab As Avd Trondheim"
+  ],
+  "regex": [
+   "^lindab\\b"
+  ],
+  "total_ads": 19,
+  "notes": "Lindab AS branches across Norway; \"Lindab A/S\" also included."
+ },
+ {
+  "name": "BlueNord",
+  "ticker": "BNOR.OL",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Formerly Noreco (Norwegian Energy Company ASA); Danish North Sea operations, small Oslo HQ. No clear matches; \"Norwegian Energy As\" (7 ads) is ambiguous and excluded."
+ },
+ {
+  "name": "Instalco",
+  "ticker": "INSTAL.ST",
+  "norway_presence": "material",
+  "employers": [
+   "Bakke El Installasjon AS",
+   "Bakke EL-installasjon",
+   "BAKKE EL- INSTALLASJON AS",
+   "Lysteknikk Elektroentreprenør AS",
+   "LYSTEKNIKK ELEKTROENTREPRENØR AS",
+   "Lysteknikk AS",
+   "CHRISTIANIA RØRLEGGERBEDRIFT AS AVD JERNBANEVEIEN",
+   "VENTEC AS",
+   "TOTAL VVS AS",
+   "VITO - Prosjektledere VVS",
+   "VITO - Service prosjektleder ventilasjon",
+   "Urd Klima Service Oppdal As",
+   "URD Klima Service Oppdal AS",
+   "Imes",
+   "Haug Og Ruud Vvs As",
+   "Moi Rør AS",
+   "MOI RØR AS AVD KRISTIANSAND",
+   "Grevstad & Tvedt VVS AS",
+   "Jb Elektro As Avd Tromsø",
+   "Jb Elektro As",
+   "JB Elektro AS",
+   "Jb Elektro As Avd Sørkjosen",
+   "Jb Elektro As Avd Nordreisa"
+  ],
+  "regex": [
+   "^jb elektro\\b"
+  ],
+  "total_ads": 80,
+  "notes": "~24 Norwegian subsidiaries (Instalco Norge). Excluded ambiguous: Teknisk Ventilasjon AS (two companies of that name), Klimateknikk.AS (Asker), Urd Klima Sandnes, Lund Elektro Installasjon (Lørenskog, not Instalco), Romerike Elektro hit (GK), generic Vito/Medby/Manglerud."
+ },
+ {
+  "name": "Inwido",
+  "ticker": "INWI.ST",
+  "norway_presence": "small",
+  "employers": [
+   "FREKHAUG VINDUET AS",
+   "Frekhaug Vinduet As",
+   "Frekhaug vinduet ",
+   "Frekhaug vinduet",
+   "Frekhaug Vinduet AS",
+   "Frekhaug Vinduet ",
+   "Frekhaugvinduet ",
+   "LYSSAND-FREKHAUG AS"
+  ],
+  "regex": [
+   "frekhaug ?vinduet",
+   "^lyssand-frekhaug"
+  ],
+  "total_ads": 29,
+  "notes": "Norwegian unit Lyssand-Frekhaug / Frekhaug Vinduet AS (Alver)."
+ },
+ {
+  "name": "Bergman & Beving",
+  "ticker": "BERG-B.ST",
+  "norway_presence": "small",
+  "employers": [
+   "TEMA NORGE AS",
+   "Guide Gloves AS"
+  ],
+  "regex": [],
+  "total_ads": 10,
+  "notes": "Tema Norge acquired 2023; Guide Gloves part of B&B since 2020. \"TOOLS AS\" excluded (left with Momentum/Alligo 2017); Skydda Nordic sold to Ahlsell."
+ },
+ {
+  "name": "SkiStar",
+  "ticker": "SKIS-B.ST",
+  "norway_presence": "small",
+  "employers": [
+   "SkiStar",
+   "SKISTAR NORGE AS AVD TRYSILFJELLET",
+   "Skistar Norge AS avd Trysilfjellet",
+   "Skistar Norge AS",
+   "Skistar",
+   "SKISTAR NORGE AS AVD HEMSEDAL SKISENTER"
+  ],
+  "regex": [
+   "^ski ?star\\b"
+  ],
+  "total_ads": 47,
+  "notes": "Operates Trysil and Hemsedal. Hotels/restaurants in resorts not owned-confirmed (e.g. Radisson Blu Resort Trysil, Hemsedal Skirestauranter) excluded."
+ },
+ {
+  "name": "UIE",
+  "ticker": "UIE.CO",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Holding company (United Plantations); no Norwegian presence."
+ },
+ {
+  "name": "Raisio",
+  "ticker": "RAIVV.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian ads."
+ },
+ {
+  "name": "Elopak",
+  "ticker": "ELO.OL",
+  "norway_presence": "material",
+  "employers": [
+   "Elopak AS"
+  ],
+  "regex": [],
+  "total_ads": 1,
+  "notes": "Norwegian HQ (Asker, ~200 employees) but only 1 ad under its name. IPO June 2021."
+ },
+ {
+  "name": "Qt Group",
+  "ticker": "QTCOM.HE",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "The Qt Company AS (Oslo, ~60 employees, ex-Trolltech) exists but has no ads in feed."
+ },
+ {
+  "name": "Okea",
+  "ticker": "OKEA.OL",
+  "norway_presence": "material",
+  "employers": [
+   "OKEA ASA",
+   "OKEA AS",
+   "Draugen, OKEA AS",
+   "Okea ASA",
+   "Draugen, OKEA ASA"
+  ],
+  "regex": [
+   "\\bokea\\b"
+  ],
+  "total_ads": 54,
+  "notes": "Listed June 2019."
+ },
+ {
+  "name": "Scanfil",
+  "ticker": "SCANFL.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ },
+ {
+  "name": "Odfjell",
+  "ticker": "ODF.OL",
+  "norway_presence": "small",
+  "employers": [
+   "Odfjell SE"
+  ],
+  "regex": [],
+  "total_ads": 1,
+  "notes": "Chemical tankers (Bergen). Odfjell Drilling/Technology/Well Services/Engineering/Eiendom are separate companies and excluded."
+ },
+ {
+  "name": "Smartoptics Group",
+  "ticker": "SMOP.OL",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Smartoptics AS (Oslo, ~8 employees); no ads. Listed June 2021."
+ },
+ {
+  "name": "Axactor",
+  "ticker": "ACR.OL",
+  "norway_presence": "small",
+  "employers": [
+   "Axactor Norway AS",
+   "AXACTOR DRAMMEN",
+   "AXACTOR VEST"
+  ],
+  "regex": [],
+  "total_ads": 8,
+  "notes": ""
+ },
+ {
+  "name": "Sentia",
+  "ticker": "SNTIA.OL",
+  "norway_presence": "material",
+  "employers": [
+   "HENT",
+   "HENT AS AVD TILLER",
+   "HENT AS AVD BERGEN",
+   "Hent AS",
+   "Hent",
+   "Hent As",
+   "Hent AS, avdeling Oslo"
+  ],
+  "regex": [],
+  "total_ads": 62,
+  "notes": "Norwegian contractor HENT is ~85% of revenue. IPO 13 June 2025. \"Hent Utleie\" and \"HENT EIENDOM AS\" excluded as uncertain."
+ },
+ {
+  "name": "Nederman Holding",
+  "ticker": "NMAN.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Nederman Insight NUF",
+   "Nederman Holding Danmark A/S"
+  ],
+  "regex": [],
+  "total_ads": 2,
+  "notes": "Nederman Norge (branch, Lillestrøm, ~17 employees)."
+ },
+ {
+  "name": "Ependion",
+  "ticker": "EPEN.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Beijer Electronics AS"
+  ],
+  "regex": [],
+  "total_ads": 2,
+  "notes": "Formerly Beijer Electronics Group; renamed Ependion 2024."
+ },
+ {
+  "name": "Morrow Bank",
+  "ticker": "MORROW.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Komplett Bank ASA",
+   "Komplett Bank ",
+   "Morrow Bank ASA"
+  ],
+  "regex": [],
+  "total_ads": 10,
+  "notes": "Formerly Komplett Bank (renamed 2023); now trades in Stockholm (MORROW.OL not found). \"Morrow Batteries\" unrelated."
+ },
+ {
+  "name": "Lassila & Tikanoja",
+  "ticker": "LASTIK.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Ticker LASTIK.HE (yfinance history only from 2026-01-02 after the 2025 demerger; LAT1V.HE no longer returns data)."
+ },
+ {
+  "name": "Proact IT Group",
+  "ticker": "PACT.ST",
+  "norway_presence": "small",
+  "employers": [
+   "PROACT IT NORGE AS",
+   "Proact IT Norge AS",
+   "Proact"
+  ],
+  "regex": [],
+  "total_ads": 5,
+  "notes": ""
+ },
+ {
+  "name": "Cynca Nordic",
+  "ticker": "CYNCA.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Vestum Norway AS",
+   "ØstCom",
+   "Østcom AS"
+  ],
+  "regex": [],
+  "total_ads": 4,
+  "notes": "Formerly Vestum (renamed July 2026). Norwegian units ØstCom (perimeter security) and Akershus Elektro (no ads found)."
+ },
+ {
+  "name": "Okeanis Eco Tankers",
+  "ticker": "OET.OL",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Greek-managed tanker company listed in Oslo."
+ },
+ {
+  "name": "Gofore",
+  "ticker": "GOFORE.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ },
+ {
+  "name": "Orrön Energy",
+  "ticker": "ORRON.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Legal successor of Lundin Energy AB (renamed 2022 after E&P sold to Aker BP). \"Lundin Energy Norway\" (3 ads) excluded since that business went to Aker BP; add it if pre-2022 history should count."
+ },
+ {
+  "name": "Investment AB Öresund",
+  "ticker": "ORES.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ },
+ {
+  "name": "Humble Group",
+  "ticker": "HUMBLE.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ },
+ {
+  "name": "Bruton",
+  "ticker": "BRUT.OL",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Bermuda-incorporated shipping investment company on Euronext Growth Oslo since Nov 2024; no operating employer in Norway."
+ },
+ {
+  "name": "Norion Bank",
+  "ticker": "NORION.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Collector bank"
+  ],
+  "regex": [],
+  "total_ads": 1,
+  "notes": "Formerly Collector Bank (renamed 2023); Norwegian branch. \"Norion Næringsmegling\" unrelated."
+ },
+ {
+  "name": "Salix Group",
+  "ticker": "SALIX.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Habo Norge AS"
+  ],
+  "regex": [],
+  "total_ads": 3,
+  "notes": "Spun off from Volati, listed 15 June 2026. Habo Gruppen fittings. \"Habo Vinduer\"/\"Habo Gastronomi\" unrelated; Sørbø Industribeslag and Ettiketto (stays in Volati) excluded."
+ }
+]

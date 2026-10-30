@@ -1,0 +1,707 @@
+[
+ {
+  "name": "Loomis",
+  "ticker": "LOOMIS.ST",
+  "norway_presence": "material",
+  "employers": [
+   "Loomis Norge",
+   "Loomis Norge AS",
+   "LOOMIS NORGE AS AVD LARVIK",
+   "Loomis Norge As Avd Narvik",
+   "Loomis Norge AS Tromsø",
+   "LOOMIS",
+   "LOOMIS NORGE AS AVD STAVANGER",
+   "Loomis Norge As Avd Tromsø",
+   "Loomis Norge AS avd Stavanger",
+   "Loomis Norge As Avd Alta",
+   "Loomis Norge As Avd Bodø",
+   "Loomis Norge As Avd Larvik",
+   "Loomis Norge As Avd Oslo",
+   "Loomis Norge As Avd Ålesund",
+   "Loomis Norge, avd. Hamar",
+   "Loomis Norge AS Narvik",
+   "Loomis Norge AS Loomis Norge AS",
+   "Loomis"
+  ],
+  "regex": [
+   "^\\s*loomis\\b"
+  ],
+  "total_ads": 51,
+  "notes": "Loomis Norge AS (cash handling, ~220 employees)."
+ },
+ {
+  "name": "Vaisala",
+  "ticker": "VAIAS.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Only Finnish entity registered in Brreg; no ads."
+ },
+ {
+  "name": "Huhtamäki",
+  "ticker": "HUH1V.HE",
+  "norway_presence": "small",
+  "employers": [
+   "Huhtamaki Foodservice Nordic Oy, Norway Branch",
+   "Huhtamaki Norway AS"
+  ],
+  "regex": [
+   "huhtamaki"
+  ],
+  "total_ads": 3,
+  "notes": "Huhtamaki Norway AS / Foodservice Nordic Oy Norway branch."
+ },
+ {
+  "name": "Ambea",
+  "ticker": "AMBEA.ST",
+  "norway_presence": "material",
+  "employers": [
+   "Stendi AS",
+   "Stendi Assistanse",
+   "Stendi",
+   "STENDI ASSISTANSE AS REGION ØST",
+   "Stendi As Region Vest",
+   "STENDI AS REGION MIDT REGIONKONTOR MIDT",
+   "STENDI HOVEDADMINISTRASJONEN",
+   "Stendi as",
+   "Stendi Assistanse ",
+   "Stendi ",
+   "STENDI SENIOR AS STENDI ADMINISTRASJON",
+   "STENDI SENIOR AS AVD RISENGA BO- OG OMSORGSSENTER",
+   "STENDI AS REGIONSKONTOR MIDT",
+   "STENDI AS HOVEDADMINISTRASJONEN",
+   "STENDI AS REGION NORD REGIONKONTOR NORD",
+   "STENDI SENIOR AS RESPIRATORTEAM MIDT",
+   "Stendi As Region Øst Bpa Region Øst",
+   "Stendi Assistanse AS",
+   "STENDI AS REGIONSKONTOR SØR",
+   "STENDI AS REGION MIDT BPA REGION MIDT",
+   "STENDI AS REGION MIDT AVD.KONTOR MØRE OG ROMSDAL",
+   "STENDI AS REGION MIDT AVDELINGSKONTOR MØRE OG ROMSDAL",
+   "STENDI AS REGION NORD CA SKIBOTNSENTERET",
+   "STENDI AS REGION NORD CY HOVEDHUSET",
+   "STENDI AS REGION VEST AVDELINGSKONTOR ROGALAND",
+   "STENDI AS REGION ØST AVD.KONTOR OT",
+   "STENDI ASSISTANSE AS",
+   "Stendi Senior AS Vestre Nes Omsorgssenter",
+   "Stendi Region Øst ",
+   "Stendi Region Midt",
+   "Stendi Assistanse Region Midt",
+   "Stendi Assistanse As Region Øst",
+   "Stendi As Region Midt Bpa Region Midt",
+   "Stendi AS, Region Nord",
+   "Region Midt, Stendi",
+   "Stendi Senior AS",
+   "Stendi Region Midt ",
+   "Stendi Omsorg pluss",
+   "Stendi Heimta Innlandet",
+   "Stendi Heimta As Ot Elverum",
+   "Stendi Heimta AS",
+   "Stendi As Regionskontor Nord",
+   "Stendi As Regionskontor Midt",
+   "Stendi As Region Øst Ot Holovegen",
+   "Stendi As Region Øst Avdelingskontor Oslo",
+   "Stendi As Region Vest Regionskontor Vest",
+   "Stendi As Region Nord",
+   "Stendi As",
+   "Stendi AS, Avd. Målselv, Region Nord",
+   "Stendi AS Region Øst Bpa Region Øst",
+   "Stendi AS Omsorgstjenester Nord Ot Rossfjord",
+   "Stendi-Heimta AS",
+   "Stendi, Region Øst",
+   "Stendi senior as",
+   "STENDI AS OT GRAVLI",
+   "STENDI AS OMSORGSTJENESTER NORD OT ROSSFJORD",
+   "STENDI AS BV NORDSTRAND",
+   "STENDI AS BARNEVERN & OMSORGSTJENESTER VEST BV HEDDELAND 1",
+   "STENDI AS",
+   "STENDI AS OMSORGSTJENESTER SØR OT NENSET",
+   "STENDI AS OT OPPDAL",
+   "STENDI AS OT ORRE",
+   "STENDI AS REGION VEST REGIONSKONTOR VEST",
+   "STENDI AS REGION VEST CA STORGATA",
+   "STENDI AS REGION VEST AVD KONTOR ROGALAND",
+   "STENDI AS REGION SØR OT BJØRNTVEDT",
+   "STENDI AS REGION SØR BV SKOGPLASSEN",
+   "STENDI AS REGION SØR BV HOLTANDALEN",
+   "STENDI AS REGION NORD OT TROLLVIK",
+   "STENDI AS REGION NORD OT SKIBOTNSENTERET",
+   "STENDI AS REGION NORD CY OLSBORGMOEN",
+   "STENDI AS REGION NORD CY NYVOLL",
+   "STENDI AS REGION NORD BV NYVOLL",
+   "STENDI AS REGION MIDT OT AVLASTNING ÅLESUND",
+   "STENDI AS REGION MIDT CA AVLASTNING ÅLESUND",
+   "STENDI AS REGION MIDT BV LIATUNET",
+   "STENDI AS OT RONG",
+   "STENDI AS REGION ØST AVD KONTOR OSLO",
+   "STENDI AS REGION ØST CA VÅLER",
+   "STENDI AS REGION ØST OT GARDERVEIEN",
+   "STENDI SENIOR AS VESTRE NES OMSORGSSENTER",
+   "STENDI SENIOR AS RESPIRATORTEAM VEST",
+   "STENDI SENIOR AS GABELS PARK",
+   "STENDI SENIOR AS ALARM ASKER OG BÆRUM",
+   "STENDI HEIMTA AS OT BOKOLLEKTIVET",
+   "STENDI ASSISTANSE AS RESPIRATORTEAM SØR",
+   "STENDI ASSISTANSE AS REGION MIDT",
+   "STENDI ASSISTANSE AS ALARM ASKER OG BÆRUM",
+   "STENDI AS REGIONSKONTOR VEST",
+   "STENDI AS REGIONSKONTOR NORD",
+   "STENDI AS REGION ØST OT HAMMERBAKKEN",
+   " Stendi AS",
+   "Aleris Omsorg Norge Region Midt"
+  ],
+  "regex": [
+   "\\bstendi\\b"
+  ],
+  "total_ads": 551,
+  "notes": "Norwegian unit Stendi (ex Aleris Omsorg Norge, acquired 2019; incl. Stendi Senior, Stendi Assistanse, Stendi Heimta). Aleris Helse is a different company, excluded."
+ },
+ {
+  "name": "Tieto",
+  "ticker": "TIETO.HE",
+  "norway_presence": "material",
+  "employers": [
+   "Tietoevry",
+   "TIETOEVRY ACCOUNTING AS AVD SLUPPENVEGEN TRONDHEIM",
+   "TietoEvry",
+   "TIETOEVRY FINTECH NORWAY AS AVD MO I RANA",
+   "TIETOEVRY NORWAY AS AVD BRUMUNDDAL",
+   "TIETOEVRY FINTECH NORWAY AS AVD TRONDHEIM",
+   "TietoEvry AS",
+   "Tietoevry Accounting AS",
+   "Tieto Norway AS",
+   "Tietoevry ",
+   "Tietoevry Accounting As Avd Sluppenvegen Trondheim",
+   "TIETOEVRY NORWAY AS AVD FORNEBU",
+   "Dreamwork for TietoEVRY",
+   "tietoEVRY MO I RANA",
+   "TIETOEVRY NORWAY AS AVD MASKINVEIEN",
+   "TIETOEVRY NORWAY AS AVD PORSGRUNN",
+   "TIETOEVRY NORWAY AS AVD REGION VEST STAVANGER",
+   "TIETOEVRY NORWAY AS AVD SLUPPENVEIEN",
+   "TIETOEVRY TECH SERVICES NORWAY AS AVD BRUMUNDDAL",
+   "TIETOEVRY TECH SERVICES NORWAY AS AVD STAVANGER",
+   "TIETOEVRY TECH SERVICES NORWAY AS AVD TRONDHEIM",
+   "TietoEvry Norge AS",
+   "Tietoevry Accounting AS avd. Bergen",
+   "Tietoevry Accounting as",
+   "Tietoevry Banking AS",
+   "Tietoevry Norway AS Sluppenveien",
+   "Tietoevry Porsgrunn ",
+   "TietoEvry Accounting ",
+   "Tieto",
+   "TietoEVRY Norway AS",
+   "EVRY CARD SERVICES AS AVD MO I RANA",
+   "EVRY CARD SERVICES AS",
+   "Evry AS",
+   "Evry",
+   "EVRY Card Services AS",
+   "Evry Norge AS avd Bergen",
+   "Evry Norge AS"
+  ],
+  "regex": [
+   "\\btieto",
+   "^\\s*evry\\b"
+  ],
+  "total_ads": 67,
+  "notes": "Tieto merged with EVRY Dec 2019 (TietoEVRY, renamed Tieto 2025). Low ad count for size: likely posts mostly via own career site / agencies. Includes 'Dreamwork for TietoEVRY' (agency ad)."
+ },
+ {
+  "name": "Hoist Finance",
+  "ticker": "HOFI.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian operation. 'Hoist Group AS' (hotel tech) is unrelated."
+ },
+ {
+  "name": "AQ Group",
+  "ticker": "AQ.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian unit found. 'AQ Solutions AS' is an unrelated aquaculture firm."
+ },
+ {
+  "name": "Sdiptech",
+  "ticker": "SDIP-B.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Heatwork Norway As",
+   "Heatwork AS",
+   "Heatwork Norway AS"
+  ],
+  "regex": [
+   "heatwork"
+  ],
+  "total_ads": 7,
+  "notes": "HeatWork Norway AS (Narvik) acquired 2023; ads before then are pre-acquisition."
+ },
+ {
+  "name": "Beijer Alma",
+  "ticker": "BEIA-B.ST",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Lesjøfors AS exists in Norway (~6 employees) but no ads. Beijer Electronics / Beijer Ref are different companies."
+ },
+ {
+  "name": "RaySearch Laboratories",
+  "ticker": "RAY-B.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ },
+ {
+  "name": "Festi",
+  "ticker": "FESTI.IC",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Icelandic (N1, Krónan, ELKO Iceland); no Norway presence. 'N1 ungdom' hits are hospital wards."
+ },
+ {
+  "name": "Nolato",
+  "ticker": "NOLA-B.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ },
+ {
+  "name": "Schouw & Co",
+  "ticker": "SCHO.CO",
+  "norway_presence": "material",
+  "employers": [
+   "BioMar AS",
+   "Biomar AS",
+   "BioMar Myre",
+   "BioMar Norge AS",
+   "BioMar Group",
+   "BioMar Karmøy",
+   "BioMar Karmøy ",
+   "Biomar",
+   "BIOMAR KARMØY",
+   "BioMar Myre ",
+   "BIOMAR AS AVD KARMØY",
+   "BIOMAR MYRE",
+   "BioMar Norge",
+   "BioMar AS Karmøy",
+   "BioMar Trondheim, Norway",
+   "Biomar AS avd Karmøy",
+   "R&D, BioMar Group",
+   "Specma Norge AS",
+   "HydraSpecma Norge AS"
+  ],
+  "regex": [
+   "\\bbiomar\\b"
+  ],
+  "total_ads": 88,
+  "notes": "BioMar Norway (feed plants Myre, Karmøy) + HydraSpecma Norge. Excludes Aker BioMarine and 'Tess Hydraspec' (unrelated)."
+ },
+ {
+  "name": "Alimak Group",
+  "ticker": "ALIG.ST",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Alimak Group Norway AS (~60 employees) exists but no ads under that name."
+ },
+ {
+  "name": "Dampskibsselskabet NORDEN",
+  "ticker": "DNORD.CO",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "'Norden' hits are generic/unrelated."
+ },
+ {
+  "name": "Olvi",
+  "ticker": "OLVAS.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ },
+ {
+  "name": "Hanza",
+  "ticker": "HANZA.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ },
+ {
+  "name": "Napatech",
+  "ticker": "NAPA.OL",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Oslo-listed but Danish operations; no Norwegian employer ads."
+ },
+ {
+  "name": "Pareto Bank",
+  "ticker": "PARB.OL",
+  "norway_presence": "small",
+  "employers": [
+   "PARETO BANK ASA"
+  ],
+  "regex": [],
+  "total_ads": 2,
+  "notes": "Pareto Securities/Pareto Asset Mgmt are separate companies, excluded."
+ },
+ {
+  "name": "Avarda Bank",
+  "ticker": "AVARDA.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Avarda"
+  ],
+  "regex": [],
+  "total_ads": 3,
+  "notes": "Avarda Bank AB NUF (Norwegian branch, ~26 employees). Yahoo history from 2016 looks odd; Avarda listed in 2025 (ticker valid)."
+ },
+ {
+  "name": "ABG Sundal Collier",
+  "ticker": "ABG.OL",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Oslo HQ but no ads in feed under its name."
+ },
+ {
+  "name": "Lindex Group",
+  "ticker": "LINDEX.HE",
+  "norway_presence": "material",
+  "employers": [
+   "Lindex AS",
+   "Lindex NO",
+   "Lindex Kvadrat",
+   "Lindex",
+   "Lindex Kvadrat - Sandnes",
+   "LINDEX AS AVD HARSTAD ALTI",
+   "LINDEX AS AVD LARVIK",
+   "LINDEX AS AVD MOSJØEN",
+   "LINDEX AS AVD ALTA SENTER",
+   "LINDEX AS AVD BROTORVET",
+   "LINDEX AS AVD LILLEHAMMER",
+   "LINDEX AS AVD MUNKEG",
+   "LINDEX AS AVD SKIBSGÅRDEN",
+   "LINDEX AS AVD SKIEN",
+   "LINDEX AS AVD STRØMMEN",
+   "LINDEX AS AVD TØNSBERG",
+   "Lindex AS Magasinet Drammen",
+   "Lindex AS Kilden",
+   "Lindex Arkaden",
+   "Lindex Øyrane Torg ",
+   "Lindex Kilden",
+   "Lindex Kongsvinger",
+   "Lindex Maxi Sandnes",
+   "Lindex NO Førde",
+   "Lindex Oasen Haugesund",
+   "Lindex Stjørdal"
+  ],
+  "regex": [
+   "^\\s*lindex\\b"
+  ],
+  "total_ads": 103,
+  "notes": "Formerly Stockmann (renamed 2024); Norwegian presence = Lindex AS stores."
+ },
+ {
+  "name": "Acast",
+  "ticker": "ACAST.ST",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Acast Stories AS (~8 employees), no ads. Listed 2021-06-17."
+ },
+ {
+  "name": "Matas",
+  "ticker": "MATAS.CO",
+  "norway_presence": "material",
+  "employers": [
+   "KICKS Norge ",
+   "Kicks",
+   "KICKS",
+   "KICKS NORGE AS AVD 621 NERSTRANDA",
+   "KICKS NORGE AS AVD 689 TRONDHEIM CITY LADE",
+   "KICKS NORGE AS AVD 622 NARVIK",
+   "KICKS NORGE AS AVD 642 KICKS MOSSEPORTEN SENTER",
+   "KICKS NORGE AS AVD 643 BORG STORSENTER",
+   "KICKS NORGE AS AVD 669 KVADRAT",
+   "KICKS NORGE AS AVD 681 CITY SYD",
+   "KICKS NORGE AS AVD 695 HAMAR CC",
+   "Kicks "
+  ],
+  "regex": [
+   "\\bkicks\\b"
+  ],
+  "total_ads": 98,
+  "notes": "KICKS Norge acquired by Matas Oct 2024; ads before that belong to Axel Johnson. NORMAL is unrelated."
+ },
+ {
+  "name": "Troax Group",
+  "ticker": "TROAX.ST",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Troax Nordic AS registered, no ads."
+ },
+ {
+  "name": "BW Energy",
+  "ticker": "BWE.OL",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Listed 2020-02-19. BW Energy Norway Management AS (~7 employees); no ads. 'BW NORWAY AS' is a household goods wholesaler, unrelated; BW Offshore/LPG are separate companies."
+ },
+ {
+  "name": "Medistim",
+  "ticker": "MEDI.OL",
+  "norway_presence": "material",
+  "employers": [
+   "Medistim ASA",
+   "MEDISTIM ASA AVD PRODUKSJON HORTEN",
+   "MEDISTIM ASA avd. produksjon Horten",
+   "MEDISTIM ASA avd. produksjonsleder Horten",
+   "MEDISTIM NORGE AS",
+   "Medistim"
+  ],
+  "regex": [
+   "medistim"
+  ],
+  "total_ads": 30,
+  "notes": "Oslo HQ, production in Horten."
+ },
+ {
+  "name": "BHG Group",
+  "ticker": "BHG.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Trademax avd. Fredrikstad",
+   "Trademax Lade",
+   "Bygghjemme Norge AS"
+  ],
+  "regex": [],
+  "total_ads": 4,
+  "notes": "Trademax showrooms in Norway; Bygghjemme Norge AS (bygghjemme.no, Bygghemma's Norwegian site) - ownership not fully verified. Designkupp sold 2024 (no ads)."
+ },
+ {
+  "name": "F-Secure",
+  "ticker": "FSECURE.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Spun off from WithSecure, listed 2022-07-01. Only a NUF; WithSecure Norge belongs to WithSecure, not F-Secure."
+ },
+ {
+  "name": "DFDS",
+  "ticker": "DFDS.CO",
+  "norway_presence": "small",
+  "employers": [
+   "DFDS SEAWAYS AS"
+  ],
+  "regex": [
+   "^\\s*dfds\\b"
+  ],
+  "total_ads": 1,
+  "notes": "DFDS Seaways AS and DFDS Logistics AS in Norway; few ads."
+ },
+ {
+  "name": "Hampidjan",
+  "ticker": "HAMP.IC",
+  "norway_presence": "material",
+  "employers": [
+   "Mørenot",
+   "Mørenot Aquaculture AS",
+   "Mørenot AS",
+   "MØRENOT AQUACULTURE AS AVD DIGITAL",
+   "MØRENOT AS PRODUKSJON SØVIK",
+   "MØRENOT ROBOTICS AS",
+   "Mørenot Osen AS",
+   "Mørenot Fishery As Avd Adm Kontor Ålesund",
+   "Mørenot Fishery AS",
+   "Mørenot Digital",
+   "Mørenot Robotics AS",
+   "MØRENOT AQUACULTURE AS AVD VEVANG",
+   "MØRENOT AQUACULTURE AS AVD KARMSUND",
+   "MØRENOT AQUACULTURE AS AVD RADØY",
+   "MØRENOT AQUACULTURE AS AVD STEIGEN",
+   "MØRENOT AS AVD ÅLESUND",
+   "MØRENOT EIENDOM II AS",
+   "MØRENOT FISHERY AS AVD PRODUKSJON ÅLESUND",
+   "MøreNot Aquaculture avd Øksningan",
+   "Mørenot Offshore AS",
+   "Mørenot Vevang",
+   "Mørenot Vevang AS",
+   "Mørenot Øksningan as",
+   "Mørenot Aquaculture avd. Hammerfest",
+   "Mørenot Aquaculture As avd Steigen",
+   "Mørenot Aquaculture As Avd Steigen",
+   "Mørenot Aquaculture",
+   "Mørenot Aquaculture ",
+   "Mørenot Aquaculture As",
+   "Mørenot Aquaculture As Avd Engineering Karmøy",
+   "Mørenot Aquaculture As Avd Hildre",
+   "Vonin Refa As Avd Rep Rossvoll",
+   "Vonin Refa As Avd Produksjon Finnsnes",
+   "VONIN REFA AS AVD TROMSØ SJØSENTER",
+   "Vonin Refa AS",
+   "Vonin Refa as Avdeling Alta ",
+   "Vonin Refa avd Alta",
+   "VONIN REFA AS AVD PRODUKSJON FINNSNES",
+   "VONIN REFA AS AVD SALG TROMSØ",
+   "HAMPIDJAN ADVANT AS AVD SØVIK",
+   "FIIZK PROTECTION AS AVD VALSNESET",
+   "Fiizk Protection AS",
+   "Fiizk Industries AS",
+   "FiiZK Digital Solutions AS",
+   "FiiZK",
+   "FIIZK NWP AS",
+   "FIIZK COVERS AS",
+   "Fiizk Protection as",
+   "Fiizk Protection As",
+   "Fiizk Covers As",
+   "Fiizk Covers AS",
+   "FiiZK NWP",
+   "FIIZK PROTECTION AS AVD FREKHAUG",
+   "FIIZK INDUSTRIES AS AVD FREKHAUG"
+  ],
+  "regex": [
+   "m[øo]renot",
+   "\\bvonin\\b",
+   "hampidjan",
+   "\\bfiizk\\b"
+  ],
+  "total_ads": 114,
+  "notes": "Vónin Refa, Hampidjan Advant, Mørenot (acquired 2022), FiiZK (acquired 2023-24). Fiskevegn is NOT Hampidjan (Mustad/Solheim). Main-market listing 2023 (first North earlier)."
+ },
+ {
+  "name": "Anora Group",
+  "ticker": "ANORA.HE",
+  "norway_presence": "material",
+  "employers": [
+   "Arcus Norway AS",
+   "Vectura AS",
+   "Arcus",
+   "VECTURA AS",
+   "Anora Plc",
+   "Anora",
+   "Arcus-Gruppen AS"
+  ],
+  "regex": [],
+  "total_ads": 30,
+  "notes": "Arcus merged into Anora (Altia) 2021; Arcus Norway, Arcus-Gruppen, Vectura (logistics). 'Arcus Vita AS' excluded (property)."
+ },
+ {
+  "name": "Note",
+  "ticker": "NOTE.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "'The Note AS' unrelated."
+ },
+ {
+  "name": "Gubra",
+  "ticker": "GUBRA.CO",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Listed 2023-04-04. 'Gubrandsdal' hits are typos of Gudbrandsdal."
+ },
+ {
+  "name": "Salmon Evolution",
+  "ticker": "SALME.OL",
+  "norway_presence": "material",
+  "employers": [
+   "Salmon Evolution",
+   "Salmon Evolution AS"
+  ],
+  "regex": [
+   "salmon evolution"
+  ],
+  "total_ads": 12,
+  "notes": "Listed 2020-09-18 (Euronext Growth, later main list). Land-based salmon, Hustadvika."
+ },
+ {
+  "name": "Endomines Finland",
+  "ticker": "PAMPALO.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Helsinki listing from 2022-12-20 (moved from Stockholm)."
+ },
+ {
+  "name": "Hexagon Composites",
+  "ticker": "HEX.OL",
+  "norway_presence": "material",
+  "employers": [
+   "Hexagon Ragasco AS",
+   "HEXAGON RAGASCO AS",
+   "HEXAGON RAUFOSS AS"
+  ],
+  "regex": [
+   "hexagon ragasco",
+   "hexagon raufoss"
+  ],
+  "total_ads": 10,
+  "notes": "'Hexagon AS' (36 ads) is an unrelated gambling company and excluded; 'Hexagon Avd Oslo'/'Hexagon' ambiguous, excluded. Hexagon Purus (2 ads) excluded: separately listed since 2020, deconsolidated."
+ },
+ {
+  "name": "Bera",
+  "ticker": "BERA.IC",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Bera hf (formerly Ölgerðin Egill Skallagrímsson), listed 2022-06-09. Icelandic only."
+ },
+ {
+  "name": "Aktiebolag Fagerhult",
+  "ticker": "FAG.ST",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Fagerhult Belysning AS (~40 employees) exists, no ads."
+ },
+ {
+  "name": "Incap",
+  "ticker": "ICP1V.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "'Incap AS' in Brreg is an unrelated software firm."
+ },
+ {
+  "name": "cBrain",
+  "ticker": "CBRAIN.CO",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ }
+]

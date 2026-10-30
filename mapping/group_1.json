@@ -1,0 +1,605 @@
+[
+ {
+  "name": "Nordnet",
+  "ticker": "SAVE.ST",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Nordnet Bank NUF branch in Oslo; no ads in feed. Re-listed Nov 2020."
+ },
+ {
+  "name": "Valmet",
+  "ticker": "VALMT.HE",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Valmet AS (Norway) exists; no matching ads (Neles merged 2022, none found)."
+ },
+ {
+  "name": "Camurus",
+  "ticker": "CAMX.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian employer entity found."
+ },
+ {
+  "name": "Attendo",
+  "ticker": "ATT.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Attendo ads in feed (Attendo is Sweden/Finland focused)."
+ },
+ {
+  "name": "Islandsbanki",
+  "ticker": "ISB.IC",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Listed June 2021. No Norwegian presence."
+ },
+ {
+  "name": "Röko",
+  "ticker": "ROKO-B.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "IPO March 2025. Swedish holding of small companies; no identifiable Norwegian ads."
+ },
+ {
+  "name": "Medicover",
+  "ticker": "MCOV-B.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian operations found."
+ },
+ {
+  "name": "Storskogen Group",
+  "ticker": "STOR-B.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Nimbus Direct AS",
+   "NIMBUS DIRECT AS",
+   "Nimbus Direct As",
+   "NIMBUS FIBER AS",
+   "Nimbus Fiber AS",
+   "NIMBUS ENTREPRENØR AS"
+  ],
+  "regex": [],
+  "total_ads": 15,
+  "notes": "IPO Oct 2021. Storskogen Norge AS owns Nimbus Group (from Jan 2022), Thermica, Vox Hair, Verdant (2026; 'Verdant AS' 1 ad excluded as unverified). Most Norwegian units have no ads under their names."
+ },
+ {
+  "name": "BioGaia",
+  "ticker": "BIOG-B.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian entity."
+ },
+ {
+  "name": "Cloetta",
+  "ticker": "CLA-B.ST",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Cloetta Norge AS sales office; no ads."
+ },
+ {
+  "name": "RVRC Holding",
+  "ticker": "RVRC.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "IPO June 2021. Online-only retailer, no Norwegian staff."
+ },
+ {
+  "name": "SJF Bank",
+  "ticker": "SJF.CO",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Formerly Sparekassen Sjaelland-Fyn. Danish only."
+ },
+ {
+  "name": "Xvivo Perfusion",
+  "ticker": "XVIVO.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian presence."
+ },
+ {
+  "name": "Ratos",
+  "ticker": "RATO-B.ST",
+  "norway_presence": "material",
+  "employers": [
+   "HENT",
+   "HENT AS AVD TILLER",
+   "HENT AS AVD BERGEN",
+   "Hent AS",
+   "Hent Utleie",
+   "HENT EIENDOM AS",
+   "Hent",
+   "Hent As",
+   "Hent AS, avdeling Oslo",
+   "Presis Vegdrift AS",
+   "PRESIS VEGDRIFT AS AVD HARSTAD",
+   "Presis Vegdrift",
+   "PRESIS VEGDRIFT AS AVD HAMMERFEST",
+   "PRESIS VEGDRIFT AS AVD SJØVEGAN",
+   "PRESIS VEGDRIFT AS AVD SALANGSVERKET",
+   "Presis Vegdrift AS avd Hammerfest",
+   "Presis Vegdrift AS avd. Voss ",
+   "Presis Vegdrift As Avd Voss",
+   "PRESIS VEGDRIFT AS AVD KARLSØY",
+   "PRESIS VEGDRIFT AS AVD LÆRDAL",
+   "PRESIS VEGDRIFT AS AVD NORD SALTEN",
+   "PRESIS VEGDRIFT AS AVD SUNNFJORD",
+   "Semcon Norway",
+   "Semcon Nord As",
+   "SEMCON NORD AS",
+   "Knightec Group Norway"
+  ],
+  "regex": [
+   "^plantasjen\\b"
+  ],
+  "total_ads": 300,
+  "notes": "Norwegian holdings: HENT (now under Sentia, 70% Ratos), Presis Infra/Presis Vegdrift (from 2021), Plantasjen (owned throughout, reconstruction 2024-25), Knightec/Semcon. Excluded: Aibel (32% associate, sold), Bisnode Norge (sold Jan 2021)."
+ },
+ {
+  "name": "Stendörren Fastigheter",
+  "ticker": "STEF-B.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Swedish property only."
+ },
+ {
+  "name": "Systemair",
+  "ticker": "SYSR.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Systemair AS"
+  ],
+  "regex": [],
+  "total_ads": 1,
+  "notes": "Systemair AS sales/office in Norway."
+ },
+ {
+  "name": "MedCap",
+  "ticker": "MCAP.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Mediplast AS"
+  ],
+  "regex": [],
+  "total_ads": 5,
+  "notes": "Mediplast AS (Norway) is a MedCap subsidiary."
+ },
+ {
+  "name": "Engcon",
+  "ticker": "ENGCON-B.ST",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "IPO June 2022. engcon Norge AS sales unit; no ads."
+ },
+ {
+  "name": "Moreld",
+  "ticker": "MORLD.OL",
+  "norway_presence": "material",
+  "employers": [
+   "MORELD AGILITY AS AVD RØRA",
+   "Moreld Agility",
+   "Moreld Flux AS",
+   "Moreld Lifecycle",
+   "MORELD AGILITY AS AVD TØNSBERG",
+   "Moreld Apply",
+   "Moreld Karsten Moholt AS",
+   "Moreld Teknor AS",
+   "Ocean Installer",
+   "Ocean Installer AS",
+   "OCEAN INSTALLER AS",
+   "Karsten Moholt AS",
+   "Karsten Moholt Nord",
+   "KARSTEN MOHOLT AS",
+   "KARSTEN MOHOLT AS AVD HARSTAD",
+   "Karsten Moholt",
+   "Teknor",
+   "Teknor As",
+   "Teknor AS",
+   "Agility Subsea Fabrication AS",
+   "AGILITY GROUP AS",
+   "AGILITY SUBSEA FABRICATION AS AVD RØRA",
+   "AGILITY AS AVD RØRA",
+   "APPLY AS AVD STAVANGER",
+   "Apply As Avd Stavanger",
+   "Apply Sørco ",
+   "Apply Sørco",
+   "APPLY LEIRVIK AS AVD STORD",
+   "Teknisk Bureau",
+   "Teknisk Bureau As",
+   "Teknisk Bureau AS",
+   "Teknisk Bureau AS avd. Haugesund",
+   "Teknisk Bureau Harstad AS",
+   "Teknisk Bureau Harstad As Avd Verksted Narvik",
+   "TEKNISK BUREAU AS",
+   "TEKNISK BUREAU SORTLAND AS AVD VERKSTED",
+   "TEKNISK BUREAU NARVIK AS",
+   "Teknisk Bureau Sunnhordland, Moholt Group",
+   "Teknisk Bureau Finnsnes",
+   "TEKNISK BUREAU AS AVD VERKSTED",
+   "TEKNISK BUREAU HARSTAD AS",
+   "Teknisk Bureau Haugesund, Teknisk Bureau",
+   "Teknisk Bureau Leknes AS",
+   "Teknisk Bureau Sortland AS",
+   "Teknisk Bureau Bergen, Teknisk Bureau",
+   "Teknisk Bureau Bergen, Moholt Group",
+   "Teknisk Bureau (Tromsø)",
+   "Teknisk Bureau AS Avd Meca Narvik",
+   "Teknisk Bureau AS, Haugesund",
+   "Teknisk Bureau AS, region Sunnhordland",
+   "Teknisk Bureau Bardufoss"
+  ],
+  "regex": [],
+  "total_ads": 278,
+  "notes": "Listed Dec 2024. Norwegian group: Moreld Apply (ex Apply Sorco/Apply Leirvik), Ocean Installer (joined 2024), Moholt Group (Karsten Moholt, Teknisk Bureau, Teknor, Aquamarine), Agility, Flux. IKM-prefixed names excluded (IKM era). Excluded uncertain: 'Leirvik AS' (169 ads, Leirvik split from Apply), 'Optimar AS' (85)."
+ },
+ {
+  "name": "YIT",
+  "ticker": "YIT.HE",
+  "norway_presence": "small",
+  "employers": [
+   "YIT NORGE AS",
+   "YIT Norge AS",
+   "Yit Jølstra Kraft ",
+   "YIT",
+   "YIT Greåker",
+   "YIT Jølstra kraft ",
+   "YIT NORGE AS AVD GRENLAND",
+   "YIT, Jølstra kraftverk"
+  ],
+  "regex": [],
+  "total_ads": 20,
+  "notes": "YIT Norge AS (infrastructure; Jolstra kraftverk project)."
+ },
+ {
+  "name": "Paratus Energy Services",
+  "ticker": "PLSV.OL",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Listed on Euronext Growth Oslo June 2024 (ex Seadrill New Finance; Fontis/Seabras ops abroad). Small Oslo office, no ads."
+ },
+ {
+  "name": "Coor Service Management Holding",
+  "ticker": "COOR.ST",
+  "norway_presence": "material",
+  "employers": [],
+  "regex": [
+   "\\bcoor\\b"
+  ],
+  "total_ads": 518,
+  "notes": "Coor Service Management AS / Coor Cleaning Catering and Property; many site-branch strings."
+ },
+ {
+  "name": "Vimian Group",
+  "ticker": "VIMIAN.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "IPO June 2021. Evidensia hits belong to IVC Evidensia, not Vimian."
+ },
+ {
+  "name": "Elkem",
+  "ticker": "ELK.OL",
+  "norway_presence": "material",
+  "employers": [
+   "Elkem ASA Bjølvefossen",
+   "Elkem ASA Salten",
+   "Elkem ASA Bremanger",
+   "Elkem Salten",
+   "Elkem Bjølvefossen",
+   "Elkem ASA Thamshavn",
+   "Elkem ASA Rana",
+   "Elkem ASA Tana",
+   "ELKEM CARBON AS AVD CARBON",
+   "Elkem Rana",
+   "ELKEM ASA THAMSHAVN",
+   "Elkem ASA",
+   "Elkem ASA, Thamshavn",
+   "Elkem Bremanger",
+   "ELKEM ASA HOVEDKONTORET",
+   "ELKEM ASA AVD SALTEN VERK",
+   "Elkem",
+   "Elkem Thamshavn",
+   "Elkem AS, Tana",
+   "Elkem AS, Salten Verk",
+   "Elkem Elkem Salten",
+   "Elkem ASA, Bjølvefossen",
+   "Elkem ASA Vianode",
+   "Elkem ASA Silicon Materials",
+   "ELKEM CARBON AS AVD LABORATORIE",
+   "ELKEM ASA TECHNOLOGY KRISTIANSAND",
+   "ELKEM ASA RANA",
+   "ELKEM ASA BREMANGER",
+   "ELKEM ASA BJØLVEFOSSEN",
+   "ELKEM ASA",
+   "ELKEM ASA TANA",
+   "ELKEM SILICON PRODUCT DEVELOPMENT AS",
+   "Elkem ASA Technology",
+   "Elkem Asa Bjølvefossen",
+   "Elkem ASA | We are shaping the future",
+   "Elkem ASA Thamshavn,",
+   "Elkem ASA Testvirksomhet",
+   "Elkem ASA  Thamshavn",
+   "Elkem ASA Silicon Products",
+   "Elkem ASA REC Solar Norway AS",
+   "Elkem ASA Elkem ASA",
+   "Elkem Elkem Rana",
+   "Elkem HQ",
+   "Elkem Silicon Materials",
+   "Elkem Salten Energigjenvinning AS",
+   "Elkem ASA BjÃ¸lvefossen",
+   "Elkem AS",
+   "Elkem  AS, Tana"
+  ],
+  "regex": [],
+  "total_ads": 301,
+  "notes": "All '^Elkem' strings (plants Bjolvefossen, Salten, Bremanger, Thamshavn, Rana, Tana, Elkem Carbon). Standalone 'Vianode AS' excluded (separate company since 2022)."
+ },
+ {
+  "name": "ZAPTEC",
+  "ticker": "ZAP.OL",
+  "norway_presence": "small",
+  "employers": [
+   "ZAPTEC CHARGER AS",
+   "Zaptec, Stavanger"
+  ],
+  "regex": [],
+  "total_ads": 2,
+  "notes": "Listed Oct 2020 (Merkur/Euronext Growth, later main list)."
+ },
+ {
+  "name": "Apotea",
+  "ticker": "APOTEA.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "IPO Dec 2024. Swedish online pharmacy."
+ },
+ {
+  "name": "Odfjell Technology",
+  "ticker": "OTL.OL",
+  "norway_presence": "small",
+  "employers": [
+   "Odfjell Technology As",
+   "Odfjell Technology Well Services Norway As",
+   "Odfjell Well Services Norway As",
+   "ODFJELL WELL SERVICES NORWAY AS",
+   "ODFJELL ENGINEERING AS AVD BERGEN"
+  ],
+  "regex": [],
+  "total_ads": 5,
+  "notes": "Listed March 2022 (spun off from Odfjell Drilling). Excludes Odfjell SE (tankers) and Odfjell Eiendom."
+ },
+ {
+  "name": "Ponsse",
+  "ticker": "PON1V.HE",
+  "norway_presence": "small",
+  "employers": [
+   "Ponsse AS",
+   "PONSSE AS"
+  ],
+  "regex": [],
+  "total_ads": 3,
+  "notes": "Ponsse AS Norwegian sales/service subsidiary."
+ },
+ {
+  "name": "Rejlers",
+  "ticker": "REJL-B.ST",
+  "norway_presence": "material",
+  "employers": [
+   "Rejlers NORWAY",
+   "Rejlers Norge AS",
+   "Rejlers",
+   "Rejlers Elsikkerhet AS",
+   "Rejlers Hamar",
+   "REJLERS ELSIKKERHET AS AVD OSLO",
+   "EmbriQ AS",
+   "EMBRIQ AS AVD HALDEN",
+   "Embriq AS avd. Molde",
+   "Embriq AS"
+  ],
+  "regex": [],
+  "total_ads": 83,
+  "notes": "Rejlers Norge AS plus Embriq AS (acquired 2019/2020)."
+ },
+ {
+  "name": "Scandi Standard",
+  "ticker": "SCST.ST",
+  "norway_presence": "material",
+  "employers": [
+   "Norsk Kylling",
+   "NORSK KYLLING AS AVD ORKDAL",
+   "Norsk kylling",
+   "Norsk Kylling As",
+   "Norsk Kylling as",
+   "NORSK KYLLING AS AVD STØREN",
+   "DEN STOLTE HANE AS AVD STOKKE",
+   "DEN STOLTE HANE AS AVD NÆRBØ",
+   "Den Stolte Hane As Avd Nærbø",
+   "Den Stolte Hane AS avd Stokke",
+   "Den Stolte Hane AS",
+   "Den stolte Hane",
+   "Den stolte hane",
+   "Den Stolte Hane"
+  ],
+  "regex": [],
+  "total_ads": 50,
+  "notes": "Norsk Kylling AS and Den Stolte Hane AS (acquired 2017)."
+ },
+ {
+  "name": "Enity Holding",
+  "ticker": "ENITY.ST",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "IPO June 2025 (Bluestep Bank). Bluestep has a Norwegian branch; no ads. Bank Norwegian belongs to NOBA, not Enity."
+ },
+ {
+  "name": "Aker Biomarine",
+  "ticker": "AKBM.OL",
+  "norway_presence": "small",
+  "employers": [
+   "Aker Biomarine",
+   "Aker Biomarine Antarctic AS",
+   "Aker Biomarine  AS",
+   "Aker BioMarine Antarctic AS",
+   "Aker Biomarine  ASA",
+   "Aker Biomarine AS"
+  ],
+  "regex": [],
+  "total_ads": 14,
+  "notes": "Listed July 2020. yfinance AKBM.OL history patchy (empty 5d at check; last price 2026-10-05), possibly delisting. Feed ingredients unit sold 2024. Lofoten Biomarine excluded."
+ },
+ {
+  "name": "NEL",
+  "ticker": "NEL.OL",
+  "norway_presence": "material",
+  "employers": [
+   "NEL Hydrogen Electrolyser AS",
+   "Nel Hydrogen Electrolyser AS",
+   "NEL HYDROGEN ELECTROLYSER AS",
+   "Nel Hydrogen Electrolysers USA/Europe",
+   "Nel Hydrogen",
+   "Nel Hydrogen AS",
+   "NEL HYDROGEN ELECTROLYSER AS AVD PORSGRUNN"
+  ],
+  "regex": [],
+  "total_ads": 86,
+  "notes": "Nel Hydrogen Electrolyser AS (Herøya/Notodden)."
+ },
+ {
+  "name": "Stillfront Group",
+  "ticker": "SF.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian studio found."
+ },
+ {
+  "name": "Heimar",
+  "ticker": "HEIMAR.IC",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Formerly Reginn hf; Icelandic property. 'heimar' matches are Norwegian nursing homes (false positive)."
+ },
+ {
+  "name": "Magnora",
+  "ticker": "MGN.OL",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Oslo-based small team; no ads."
+ },
+ {
+  "name": "Better Collective",
+  "ticker": "BETCO.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Danish company, no Norwegian ads."
+ },
+ {
+  "name": "Magnora Data Center",
+  "ticker": "MDATA.OL",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Listed June 2026 (spin-off from Magnora). No ads."
+ },
+ {
+  "name": "Grieg Seafood",
+  "ticker": "GSF.OL",
+  "norway_presence": "material",
+  "employers": [
+   "Grieg Seafood Finnmark",
+   "Grieg Seafood Finnmark AS",
+   "Grieg Seafood",
+   "Grieg Seafood Rogaland",
+   "Grieg Seafood Rogaland AS",
+   "Grieg Seafood Rogaland ",
+   "Grieg Seafood Sales AS",
+   "Grieg Seafood Finnmark Asavd Lakseslakteri",
+   "Grieg Seafood Finnmark As",
+   "Grieg Seafood Finnmark As Avd Oppdrettsanlegg",
+   "Grieg Seafood Finnmark AS ",
+   "Grieg Seafood Finnmark ",
+   "GRIEG SEAFOOD SALES AS AVD GARDERMOEN",
+   "GRIEG SEAFOOD ROGALAND AS AVD TROSNAVÅG 32",
+   "GRIEG SEAFOOD ROGALAND AS AVD ERFJORD STAMFISK",
+   "GRIEG SEAFOOD ASA AVD ALTA"
+  ],
+  "regex": [],
+  "total_ads": 112,
+  "notes": "Grieg Seafood Finnmark/Rogaland/Sales. Excludes other Grieg Group companies and 'Eterni bemanning / Grieg Seafood' (staffing agency). Check 2025 divestments of Norwegian farms."
+ },
+ {
+  "name": "Knowit",
+  "ticker": "KNOW.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Knowit Norway",
+   "Knowit Quality",
+   "KNOWIT IMPACT AS",
+   "KNOWIT AS",
+   "KNOWIT OBJECTNET AS",
+   "KNOWIT SOLUTIONS NORWAY AS",
+   "KNOWIT SØR AS",
+   "Knowit",
+   "Knowit Amende As",
+   "Knowit Experience",
+   "Knowit Experience AS"
+  ],
+  "regex": [],
+  "total_ads": 21,
+  "notes": "Knowit Norway entities (Objectnet, Amende, Sor, Experience, etc.)."
+ },
+ {
+  "name": "Catella",
+  "ticker": "CAT-B.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian ads."
+ }
+]

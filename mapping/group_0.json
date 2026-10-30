@@ -1,0 +1,447 @@
+[
+ {
+  "name": "Jyske Bank",
+  "ticker": "JYSK.CO",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian operations; \"Fru Jyske\" unrelated."
+ },
+ {
+  "name": "Demant",
+  "ticker": "DEMANT.CO",
+  "norway_presence": "small",
+  "employers": [
+   "Demant Norway AS",
+   "Demant Norway As",
+   "Oticon As",
+   "Oticon A/S"
+  ],
+  "regex": [],
+  "total_ads": 6,
+  "notes": "Demant Norway AS (formerly Oticon AS), hearing-aid wholesale. AudioNova/Høvik Hørsel belong to Sonova, excluded."
+ },
+ {
+  "name": "Mandatum",
+  "ticker": "MANTA.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Listed 2023-10-02 (demerged from Sampo). No Norwegian ops."
+ },
+ {
+  "name": "H. Lundbeck",
+  "ticker": "HLUN-B.CO",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Has Lundbeck Norway sales office but no ads found. Yahoo B-share history from 2022-06 (A/B share split); HLUN-A.CO also exists."
+ },
+ {
+  "name": "AddLife",
+  "ticker": "ALIF-B.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Mediplast AS",
+   "Hepro AS",
+   "HEPRO AS AVD NORD",
+   "Hepro"
+  ],
+  "regex": [],
+  "total_ads": 13,
+  "notes": "Norwegian subs: Mediplast AS, Hepro AS (acquired), Funksjonsutstyr AS (no ads), Triolab AS (no ads). Zafe AS (Klepp, HMS consultancy) is NOT AddLife; Vision Healthcare Nordic excluded."
+ },
+ {
+  "name": "Elekta",
+  "ticker": "EKTA-B.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Elekta As"
+  ],
+  "regex": [],
+  "total_ads": 5,
+  "notes": "Small Norwegian sales presence. Relekta AS is unrelated."
+ },
+ {
+  "name": "Ambu",
+  "ticker": "AMBU-B.CO",
+  "norway_presence": "small",
+  "employers": [
+   "Ambu AS, ST Nordic"
+  ],
+  "regex": [],
+  "total_ads": 1,
+  "notes": "Ambu Norge Filial NUF. \"Ambu AS, ST Nordic\" is likely a recruiter ad for Ambu (uncertain). AMBU Distrikt (Vestre Viken ambulance) excluded."
+ },
+ {
+  "name": "BioArctic",
+  "ticker": "BIOA-B.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ },
+ {
+  "name": "Bittium",
+  "ticker": "BITTI.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ },
+ {
+  "name": "Bure Equity",
+  "ticker": "BURE.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Investment company; no Norwegian portfolio employers found."
+ },
+ {
+  "name": "Karnov Group",
+  "ticker": "KAR.ST",
+  "norway_presence": "small",
+  "employers": [
+   "KARNOV GROUP NORWAY AS"
+  ],
+  "regex": [],
+  "total_ads": 1,
+  "notes": "Listed 2019-04-11. Karnov Group Norway AS (formerly Newcolaw AS)."
+ },
+ {
+  "name": "CHEMOMETEC",
+  "ticker": "CHEMM.CO",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ },
+ {
+  "name": "Embla Medical",
+  "ticker": "EMBLA.CO",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Formerly Össur hf. Norwegian clinics: ForMotion Norway AS, formerly OCH Ortopedi AS (renamed 2025-02). No ads under either name. Ortopediteknikk AS is a separate company, excluded."
+ },
+ {
+  "name": "MilDef Group",
+  "ticker": "MILDEF.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Sysint AS"
+  ],
+  "regex": [],
+  "total_ads": 4,
+  "notes": "Listed 2021-06-04. Norwegian subs: MilDef AS (ex Bedriftssystemer AS, no ads), Sysint AS (acquired 2021, renamed MilDef Sept 2026)."
+ },
+ {
+  "name": "INVISIO",
+  "ticker": "IVSO.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ },
+ {
+  "name": "Amasten Fastighets",
+  "ticker": null,
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Swedish real estate; no Swedish-exchange ticker found on Yahoo (only 4M2B.SG Stuttgart, 1 day of data)."
+ },
+ {
+  "name": "Terveystalo",
+  "ticker": "TTALO.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ },
+ {
+  "name": "GRK Infra",
+  "ticker": "GRK.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Listed 2025-04-02. Finland/Sweden/Estonia only; GRK Arena AS unrelated."
+ },
+ {
+  "name": "Bonheur",
+  "ticker": "BONHR.OL",
+  "norway_presence": "material",
+  "employers": [
+   "DN Media Group AS",
+   "NHST Media Group",
+   "Fiskeribladet Sales",
+   "Fred. Olsen Renewables"
+  ],
+  "regex": [],
+  "total_ads": 26,
+  "notes": "Fred. Olsen Renewables/Windcarrier/Ocean + ~54% of DN Media Group (ex NHST Media Group: DN, Fiskeribladet, TradeWinds, Recharge, Upstream). Excluded \"Fred. Olsen AS\" and \"Fred. Olsen Travel As\" (Olsen family sphere, ownership unclear), \"Recharge AS\" (ambiguous with EV-charging firm). Verify DN Media still a subsidiary in 2026."
+ },
+ {
+  "name": "Metsä Board",
+  "ticker": "METSB.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Metsä Tissue AS is a sister company in Metsä Group, not Metsä Board; excluded."
+ },
+ {
+  "name": "Vitrolife",
+  "ticker": "VITR.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ },
+ {
+  "name": "Endúr",
+  "ticker": "ENDUR.OL",
+  "norway_presence": "material",
+  "employers": [
+   "Endúr Maritime As Avd Skjøndal",
+   "ENDÚR SJØSTERK AS",
+   "ENDUR MARITIME AS AVD STRAUME",
+   "Endur Aak As Avd Bergen",
+   "Endur Fabricom AS",
+   "Endur Maritime",
+   "Endur Sjøsterk",
+   "Artec Aqua AS",
+   "Artec Aqua",
+   "Artec Aqua As Avd Ålesund",
+   "Assisterende Prosjektleder søkes til Artec Aqua AS",
+   "Artec Aqua AS, Innkjøpsavdeling",
+   "Prosjekteringsleder søkes til Artec Aqua AS",
+   "BMO ENTREPRENØR AS, formidling",
+   "Norsk Bergsikring AS",
+   "Norsk Bergsikring (NBS)",
+   "NORSK BERGSIKRING AS",
+   "Tronfjell Maskin AS",
+   "WIMO FJELLSIKRING AS",
+   "Wimo Fjellsikring As",
+   "TOTAL BETONG AS AVD BRYNE",
+   "Total Betong AS avd Bryne",
+   "HAB Construction AS",
+   "Hab Construction AS",
+   "REPSTAD ANLEGG AS",
+   "Repstad Anlegg AS",
+   "GANN TRE AS"
+  ],
+  "regex": [],
+  "total_ads": 55,
+  "notes": "Formerly Bergen Group ASA. Subs: Endúr Maritime/Sjøsterk, Artec Aqua, BMO Entreprenør (2020) + Norsk Bergsikring, Repstad Anlegg (Dec 2023), Total Betong/HAB Construction(Habto)/Igang (2025), Tronfjell Maskin & Gann Tre (Dec 2025), Wimo (2026). Several are recent acquisitions so pre-acquisition ads included. Excluded: BMO Elektro, BMO Tunnelsikring, CHR Repstad Sønner, Total Betong Bodø, Marine Aluminium, Aak Energy, Bergen Group AS (cleaning firm)."
+ },
+ {
+  "name": "Archer",
+  "ticker": "ARCH.OL",
+  "norway_presence": "material",
+  "employers": [
+   "Archer",
+   "ARCHER NORGE STAVANGER",
+   "Archer Norge Stavanger"
+  ],
+  "regex": [],
+  "total_ads": 5,
+  "notes": "Archer AS / Archer Norge AS (ex Seawell), ~1,500 Norwegian employees but few ads under own name. Excluded Archer Consulting, Karcher, \"Vertikal Service AS (Archer)\" (staffing)."
+ },
+ {
+  "name": "Kvika banki",
+  "ticker": "KVIKA.IC",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ },
+ {
+  "name": "Momentum Group",
+  "ticker": "MMGR-B.ST",
+  "norway_presence": "small",
+  "employers": [
+   "MOMENTUM INDUSTRIAL AS"
+  ],
+  "regex": [],
+  "total_ads": 2,
+  "notes": "Current Momentum Group listed 2022-03-31 (spun out of Alligo, which owns TOOLS Norway - excluded). Norway: Momentum Industrial AS, Håland Instrumentering & TTP Seal (2025, no ads). Momentum Technologies/Rådgivning unrelated."
+ },
+ {
+  "name": "Karnell Group",
+  "ticker": "KARNEL-B.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Listed 2023/24 (Yahoo data from 2024-03-22). Sweden/Finland only."
+ },
+ {
+  "name": "Gruvaktiebolaget Viscaria",
+  "ticker": "VISC.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Formerly Copperstone Resources."
+ },
+ {
+  "name": "Eastnine",
+  "ticker": "EAST.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ },
+ {
+  "name": "Marimekko",
+  "ticker": "MEKKO.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": ""
+ },
+ {
+  "name": "Revenio Group",
+  "ticker": "REG1V.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Icare brand; no Norwegian employer."
+ },
+ {
+  "name": "BioMar Group",
+  "ticker": "BIOMAR.CO",
+  "norway_presence": "material",
+  "employers": [],
+  "regex": [
+   "\\bbiomar\\b"
+  ],
+  "total_ads": 86,
+  "notes": "Spun off from Schouw & Co, listed 2026-05-28. BioMar AS (Myre, Karmøy) fish-feed plants. Regex excludes Aker Biomarine/Lofoten Biomarine/Bjørge Biomarin via word boundary."
+ },
+ {
+  "name": "Bohus",
+  "ticker": "BOHUS.OL",
+  "norway_presence": "material",
+  "employers": [],
+  "regex": [
+   "^\\s*bohus\\b"
+  ],
+  "total_ads": 306,
+  "notes": "Listed 2026-06. Furniture chain; many stores are franchise/partner-owned but trade under Bohus brand (Bohus Norge AS, Bohus Butikkdrift AS, Bohus Logistikk AS). Excludes Nordbohus/Trebohus."
+ },
+ {
+  "name": "Klaveness Combination Carriers",
+  "ticker": "KCC.OL",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Listed 2019-05. Managed by Torvald Klaveness (not group); Klaveness Footwear unrelated."
+ },
+ {
+  "name": "BTS Group",
+  "ticker": "BTS-B.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "BTS-Bergen Transport & Spedisjon unrelated."
+ },
+ {
+  "name": "John Mattson Fastighetsföretagen",
+  "ticker": "JOMA.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Listed 2019-06."
+ },
+ {
+  "name": "Stockholm Nordtech Group",
+  "ticker": "NTECH.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Yahoo data from 2026-06-10. Nordtech Services AS assumed unrelated."
+ },
+ {
+  "name": "Savox Communications",
+  "ticker": "SAVOX.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Yahoo data from 2026-06-23."
+ },
+ {
+  "name": "MT Hoejgaard Holding",
+  "ticker": "MTHH.CO",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Scandi Bygg AS (Norway) unrelated to Scandi Byg (DK)."
+ },
+ {
+  "name": "Solstad Offshore",
+  "ticker": "SOFF.OL",
+  "norway_presence": "material",
+  "employers": [
+   "Solstad Offshore ASA",
+   "Solstad Offshore",
+   "Solstad offshore",
+   "Solstad Offshore ASA Nordic crew",
+   "Solstad Offshore ASA ",
+   "Solstad Shipping AS",
+   "Solstad Shipping",
+   "Solstad Managament AS"
+  ],
+  "regex": [],
+  "total_ads": 12,
+  "notes": "Skudeneshavn. Solstad Shipping AS / Solstad Management AS are crewing/management entities (since 2024 split partly under Solstad Maritime, in which SOFF holds a stake). Bare \"Solstad\" and Solstad barnehage/bo/transport excluded."
+ },
+ {
+  "name": "Panoro Energy",
+  "ticker": "PEN.OL",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Africa-focused E&P, tiny Oslo/London office."
+ },
+ {
+  "name": "Intrum",
+  "ticker": "INTRUM.ST",
+  "norway_presence": "material",
+  "employers": [
+   "INTRUM AS AVD TRONDHEIM",
+   "Intrum",
+   "Intrum AS",
+   "Lindorff AS",
+   "Lindorff AS IT"
+  ],
+  "regex": [],
+  "total_ads": 9,
+  "notes": "Intrum AS (Lysaker, ~360 empl); Lindorff merged into Intrum 2017."
+ }
+]

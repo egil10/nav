@@ -1,0 +1,469 @@
+[
+ {
+  "name": "Hiab",
+  "ticker": "HIAB.HE",
+  "norway_presence": "small",
+  "employers": [
+   "Hiab Norway AS",
+   "HIAB NORWAY AS"
+  ],
+  "regex": [],
+  "total_ads": 5,
+  "notes": "Hiab Norway AS (Nittedal). Cargotec renamed Hiab 2025 after Kalmar demerger (HIAB.HE carries Cargotec price history)."
+ },
+ {
+  "name": "OEM International",
+  "ticker": "OEM-B.ST",
+  "norway_presence": "small",
+  "employers": [
+   "OEM-AUTOMATIC AS"
+  ],
+  "regex": [],
+  "total_ads": 3,
+  "notes": "Norwegian subsidiary OEM Automatic AS (Drammen)."
+ },
+ {
+  "name": "Kalmar",
+  "ticker": "KALMAR.HE",
+  "norway_presence": "small",
+  "employers": [
+   "Kalmar Norway AS",
+   "KALMAR NORWAY AS",
+   "KALMAR NORWAY",
+   "Kalmar"
+  ],
+  "regex": [],
+  "total_ads": 90,
+  "notes": "Kalmar Norway AS (Oslo); demerged from Cargotec, listed 2024-07-01. Excluded Kalmar Bygg, Region Kalmar län, REMA Kalmarhuset."
+ },
+ {
+  "name": "Bavarian Nordic",
+  "ticker": "BAVA.CO",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian employer found."
+ },
+ {
+  "name": "Gränges",
+  "ticker": "GRNG.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian operations found."
+ },
+ {
+  "name": "HMS Networks",
+  "ticker": "HMS.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "'HMS' matches are all helse/miljø/sikkerhet units; no HMS Networks ads."
+ },
+ {
+  "name": "Kinnevik",
+  "ticker": "KINV-B.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Investment company; no Norwegian employer."
+ },
+ {
+  "name": "Odfjell Drilling",
+  "ticker": "ODL.OL",
+  "norway_presence": "material",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No ads under 'Odfjell Drilling' found. Odfjell Well Services/Engineering ads (2023+) belong to Odfjell Technology (demerged 2022) and are excluded; Odfjell SE is the tanker company."
+ },
+ {
+  "name": "Hagar",
+  "ticker": "HAGA.IC",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Icelandic retailer (Bónus, Hagkaup, Olís); no Norway presence. 'Hagar' substring hits are nynorsk 'barnehagar'."
+ },
+ {
+  "name": "Bonesupport Holding",
+  "ticker": "BONEX.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian employer found."
+ },
+ {
+  "name": "Aktia Bank",
+  "ticker": "AKTIA.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Finnish bank; 'Vaktia' hits unrelated."
+ },
+ {
+  "name": "Electrolux Professional",
+  "ticker": "EPRO-B.ST",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Electrolux Professional AS exists in Oslo (~19 empl.) but no ads under that name; 'ELECTROLUX LOGISTICS AB' belongs to Electrolux AB, excluded."
+ },
+ {
+  "name": "Torm",
+  "ticker": "TRMD-A.CO",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian employer found."
+ },
+ {
+  "name": "SP Group",
+  "ticker": "SPG.CO",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian employer found."
+ },
+ {
+  "name": "Fastighetsbolaget Emilshus",
+  "ticker": "EMIL-B.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Swedish property company; listed 2022-06."
+ },
+ {
+  "name": "Akastor",
+  "ticker": "AKAST.OL",
+  "norway_presence": "small",
+  "employers": [
+   "MHWIRTH AS AVD KRISTIANSAND",
+   "MHWIRTH AS AVD HORTEN",
+   "MHWIRTH AS AVD LYNGDAL MEK VERKSTED",
+   "HMH"
+  ],
+  "regex": [],
+  "total_ads": 6,
+  "notes": "UNCERTAIN: MHWirth was consolidated until Oct 2021, then merged into HMH (50% JV, equity-accounted); these ads are 2022-2024 (HMH era). NES Fircroft (minority financial stake) and Aker Solutions excluded."
+ },
+ {
+  "name": "Nivika Fastigheter",
+  "ticker": "NIVI-B.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Swedish property company; listed 2021-12."
+ },
+ {
+  "name": "Austevoll Seafood",
+  "ticker": "AUSS.OL",
+  "norway_presence": "material",
+  "employers": [
+   "Austevoll Laksepakkeri As",
+   "Lerøy",
+   "Lerøy Aurora",
+   "Lerøy Aurora AS",
+   "Lerøy Aurora As",
+   "Lerøy Aurora As Avd Skjervøy",
+   "LERØY AURORA AS AVD SKJERVØY",
+   "Lerøy Aurora As Avd Lebesby",
+   "Lerøy Aurora AS avd. Rubbestad",
+   "Lerøy Aurora As Hovedkontor",
+   "Lerøy Norway Seafoods AS",
+   "LERØY NORWAY SEAFOODS AS AVD MELBU",
+   "Lerøy Norway Seafoods As Avd Kjøllefjord",
+   "Lerøy Norway Seafoods AS avd Kjøllefjord",
+   "LERØY NORWAY SEAFOODS AS AVD STAMSUND",
+   "LERØY NORWAY SEAFOODS AS AVD TROMVIK",
+   "LERØY NORWAY SEAFOODS AS AVD BÅTSFJORD",
+   "Lerøy Norway Seafoods AS, avd. Melbu",
+   "Lerøy Norway Seafoods As, avd. Melbu",
+   "Lerøy Norway Seafoods As Avd Melbu",
+   "Lerøy Norway Seafood",
+   "Lerøy Norway seafood",
+   "Lerøy Norway Seafoods",
+   "Lerøy Melbu",
+   "Lerøy/Skårvågen",
+   "Lerøy/Stamsund Fisk",
+   "Lerøy Midt AS",
+   "Lerøy Midt",
+   "LERØY MIDT AS AVD HITRA",
+   "LERØY MIDT AS AVD HALSANAUSTAN",
+   "LERØY MIDT AS AVD HESTVIKA FOREDLING",
+   "LERØY MIDT AS AVD SNILLFJORD",
+   "LERØY MIDT AS AVD PRODUKSJON OG ADMINISTRASJON",
+   "LERØY MIDT AS AVD FRØYA",
+   "Lerøy Seafood Group ASA",
+   "LERØY SEAFOOD GROUP AS",
+   "LERØY SEAFOOD GROUP ASA AVD TRONDHEIM",
+   "LERØY SEAFOOD AS",
+   "Lerøy Seafood AS",
+   "LERØY FOSSEN AS",
+   "Lerøy Fossen AS",
+   "Lerøy Fossen As",
+   "LERØY SJØTROLL KJÆRELVA AS",
+   "Lerøy Sjøtroll",
+   "Sjøtroll Havbruk AS",
+   "LERØY BULANDET AS",
+   "Lerøy Bulandet As",
+   "Lerøy Bulandet AS",
+   "Lerøy Bulandet",
+   "Bulandet Fiskeindustri As",
+   "Lerøy Alfheim AS",
+   "Lerøy Delico AS",
+   "Lerøy Havfiske As",
+   "LERØY TRONDHEIM",
+   "Lerøy via Eterni"
+  ],
+  "regex": [],
+  "total_ads": 187,
+  "notes": "Consolidates Lerøy Seafood Group (~52.7%) and wholly owns Austevoll Laksepakkeri. Excluded: Pelagia (50% JV), Sjømathuset (Lerøy/NorgesGruppen JV), Bulandet Miljøfisk (unverified), K. Lerøy Metallindustri, Lerøy Skog, Lerøy Vedlikehold (Porsgrunn), Lerøy Mat, Austevoll kommune etc. Br. Birkeland: no ads."
+ },
+ {
+  "name": "Finnair Plc",
+  "ticker": "FIA1S.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian employer found."
+ },
+ {
+  "name": "Ovzon",
+  "ticker": "OVZON.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian employer found."
+ },
+ {
+  "name": "NTG Nordic Transport Group",
+  "ticker": "NTG.CO",
+  "norway_presence": "small",
+  "employers": [
+   "NTG AIR & OCEAN AS"
+  ],
+  "regex": [],
+  "total_ads": 1,
+  "notes": "NTG Air & Ocean AS (Nordre Follo). Excluded NTG = Norges Toppidrettsgymnas (Bodø/Lillehammer/Tromsø), NTG Kompetanse."
+ },
+ {
+  "name": "Addnode Group",
+  "ticker": "ANOD-B.ST",
+  "norway_presence": "small",
+  "employers": [
+   "Symetri AS",
+   "Symetri"
+  ],
+  "regex": [],
+  "total_ads": 8,
+  "notes": "Symetri AS (Autodesk reseller, Addnode subsidiary). No Technia/Tribia ads found."
+ },
+ {
+  "name": "Arjo",
+  "ticker": "ARJO-B.ST",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Arjo Norge AS exists (~14 empl.) but no ads; 'Arjo Produkter AS' is an unrelated building-materials wholesaler."
+ },
+ {
+  "name": "Tokmanni Group",
+  "ticker": "TOKMAN.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Stores in FI/SE/DK only; Norwegian 'DOLLARSTORE AS' (Oslo, est. 2018) is unrelated to Tokmanni's Swedish Dollarstore."
+ },
+ {
+  "name": "Appear",
+  "ticker": "APR.OL",
+  "norway_presence": "small",
+  "employers": [
+   "Appear AS"
+  ],
+  "regex": [],
+  "total_ads": 2,
+  "notes": "Formerly Appear TV; listed on Oslo Børs 2025-11-06 (APR.OL). 'appear.in' (Whereby) excluded."
+ },
+ {
+  "name": "Arendals Fossekompani",
+  "ticker": "AFK.OL",
+  "norway_presence": "material",
+  "employers": [
+   "Arendals Fossekompani",
+   "ENRX AS",
+   "ENRX Group AS",
+   "ENRX",
+   "ENRX Holding AS",
+   "ENRX HOLDING AS",
+   "ENRX Skien",
+   "EFD INDUCTION AS",
+   "EFD Induction AS",
+   "EFD Induction Group AS",
+   "EFD Induction Group",
+   "EFD INDUCTION GROUP AS",
+   "Volue",
+   "VOLUE INDUSTRIAL IOT AS",
+   "Volue technology as",
+   "Volue Market Services"
+  ],
+  "regex": [],
+  "total_ads": 77,
+  "notes": "Includes ENRX (ex EFD Induction, Skien) and Volue (Advent took ~40% in 2023, still AFK-controlled). Excluded 'Scanmatic Elektro' (unrelated Lindås electrician) and Tekna (union)."
+ },
+ {
+  "name": "Multiconsult",
+  "ticker": "MULTI.OL",
+  "norway_presence": "material",
+  "employers": [
+   "Link Arkitektur AS avd Bergen",
+   "LINK Arkitektur Sykehus",
+   "LINK Arkitektur AS"
+  ],
+  "regex": [
+   "multiconsult"
+  ],
+  "total_ads": 336,
+  "notes": "Multiconsult Norge AS + subsidiary LINK Arkitektur. Excluded generic 'LINK AS'/'Link AS' (asylum-centre operator) and Customer Link."
+ },
+ {
+  "name": "Trifork Group",
+  "ticker": "TRIFOR.CO",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian entity found; listed 2021-06."
+ },
+ {
+  "name": "Norske Skog",
+  "ticker": "NSKOG.OL",
+  "norway_presence": "material",
+  "employers": [],
+  "regex": [
+   "\\bnorske skog\\b"
+  ],
+  "total_ads": 290,
+  "notes": "Norske Skog Skogn and Saugbrugs mills; regex excludes 'Det Norske Skogselskap'. Relisted 2019-10-18."
+ },
+ {
+  "name": "Yubico",
+  "ticker": "YUBICO.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Listed 2023 via ACAF SPAC merger (YUBICO.ST history from 2021 is the SPAC)."
+ },
+ {
+  "name": "Reitir",
+  "ticker": "REITIR.IC",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Icelandic property company."
+ },
+ {
+  "name": "Truecaller",
+  "ticker": "TRUE-B.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Listed 2021-10."
+ },
+ {
+  "name": "Kempower",
+  "ticker": "KEMPOWR.HE",
+  "norway_presence": "small",
+  "employers": [
+   "Kempower AS"
+  ],
+  "regex": [],
+  "total_ads": 3,
+  "notes": "Kempower AS (Nannestad, ~18 empl.), Norwegian subsidiary. Listed 2021-12."
+ },
+ {
+  "name": "Framery Group",
+  "ticker": "FRAMERY.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Listed 2025-12-02."
+ },
+ {
+  "name": "Taaleri",
+  "ticker": "TAALA.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian employer found."
+ },
+ {
+  "name": "Oma Säästöpankki",
+  "ticker": "OMASP.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "'Oma Slipp' hits unrelated."
+ },
+ {
+  "name": "Sotkamo Silver",
+  "ticker": "SOSI1.HE",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Also listed SOSI.ST."
+ },
+ {
+  "name": "Lime Technologies",
+  "ticker": "LIME.ST",
+  "norway_presence": "small",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "Lime Technologies Norway AS (Oslo, ~28 empl.) exists but no ads found."
+ },
+ {
+  "name": "Fiskars",
+  "ticker": "FSKRS.HE",
+  "norway_presence": "small",
+  "employers": [
+   "FISKARS NORWAY AS"
+  ],
+  "regex": [],
+  "total_ads": 1,
+  "notes": "Fiskars Norway AS (incl. Iittala/Georg Jensen stores). 'Fiskarstrand' hits excluded."
+ },
+ {
+  "name": "Sedana Medical",
+  "ticker": "SEDANA.ST",
+  "norway_presence": "none",
+  "employers": [],
+  "regex": [],
+  "total_ads": 0,
+  "notes": "No Norwegian employer found."
+ }
+]
