@@ -266,3 +266,22 @@ pd.DataFrame(mon).to_csv(os.path.join(D, "company_monthly.csv"), index=False)
 pd.DataFrame({"month": out["months"], "ads": out["market_ads"]}).to_csv(os.path.join(D, "market.csv"), index=False)
 pd.DataFrame(robust).round(4).to_csv(os.path.join(D, "robustness.csv"), index=False)
 print(pd.DataFrame(robust).tail(1)); print(os.listdir(D))
+
+# ---------------------------------------------------------------- wide ticker x month table
+wide = cnt.round().astype(int)
+wide.columns = [str(c) for c in wide.columns]
+wide = wide.reindex(uni["name"]).fillna(0).astype(int)
+wide.insert(0, "total", wide.sum(axis=1))
+wide.insert(0, "company", wide.index)
+wide.insert(0, "ticker", uni.set_index("name")["ticker"].reindex(wide.index).fillna("").values)
+wide = wide.sort_values("total", ascending=False)
+OUTD = os.path.join(ROOT, "output"); os.makedirs(OUTD, exist_ok=True)
+wide.to_csv(os.path.join(OUTD, "ads_by_ticker_month.csv"), index=False)
+with pd.ExcelWriter(os.path.join(OUTD, "ads_by_ticker_month.xlsx")) as xw:
+    wide.to_excel(xw, sheet_name="ads_by_month", index=False)
+    yearly = cnt.T.groupby(cnt.columns.year).sum().T.round().astype(int).reindex(uni["name"]).fillna(0).astype(int)
+    yearly.columns = [str(c) for c in yearly.columns]
+    yearly.insert(0, "ticker", uni.set_index("name")["ticker"].reindex(yearly.index).fillna("").values)
+    yearly.sort_values(yearly.columns[-1], ascending=False).to_excel(xw, sheet_name="ads_by_year")
+wide[wide.total > 0].to_csv(os.path.join(D, "wide.csv"), index=False)
+print("wide", wide.shape, (wide.total > 0).sum())
